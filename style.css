@@ -671,4 +671,47 @@ body a {
         margin: 23px;
         color: #585555;
     }
+    .plan {
+        font-size: larger;
+        text-align: center;
+        color: #54a15d;
+        margin-top: 300px;
+        margin-left: -1039px;
+    }
+    .lan {
+        font-weight: bolder;
+        margin-top: 10px;
+        margin-left: -1045px;
+        text-align: center;
+    }
+    .para1 {
+        margin-top: 10px;
+        margin-left: -1193px;
+        font-size: large;
+        width: 1221px;
+    }
+/* Flexbox styles */
+.img6 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.img6 a {
+  margin: 10px;
+  flex: 1 1 30%; /* Adjust the basis percentage for different sizes */
+  text-align: center;
+}
+
+.img6 img {
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.img6 img:hover {
+  transform: scale(1.1);
+}
+
 }
