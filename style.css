@@ -676,19 +676,18 @@ body a {
         text-align: center;
         color: #54a15d;
         margin-top: 300px;
-        margin-left: -1039px;
     }
     .lan {
         font-weight: bolder;
         margin-top: 10px;
-        margin-left: -1045px;
         text-align: center;
     }
     .para1 {
         margin-top: 10px;
-        margin-left: -1193px;
+        text-align: center;
         font-size: large;
         width: 1221px;
+        margin-left: 147px;
     }
 /* Flexbox styles */
 .img6 {
