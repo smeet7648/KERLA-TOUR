@@ -26,8 +26,9 @@ body a {
 ::-webkit-scrollbar-thumb:hover {
     background: orange;
 }
+
 @media screen and (max-width:1537px) {
-    
+
     .first1 {
         background: #2d373c;
         display: flex;
@@ -39,59 +40,59 @@ body a {
         box-sizing: border-box;
         margin-top: 120px;
     }
-    
+
     .first1 li {
         list-style: none;
     }
-    
+
     .ul1 {
         display: flex;
         padding: 0;
         margin: 0;
         width: 100%;
     }
-    
+
     .l1,
     .l2,
     .l3 {
         display: flex;
         align-items: center;
     }
-    
+
     .l1 {
         flex: 1;
         gap: 10px;
     }
-    
+
     .l2 {
         flex: 1;
         justify-content: center;
     }
-    
+
     .l3 {
         flex: 1;
         justify-content: flex-end;
         gap: 10px;
     }
-    
+
     .ph {
         width: 20px;
         height: 25px;
     }
-    
+
     .ph1 {
         color: white;
         font-weight: bold;
         font-size: 0.8rem;
     }
-    
+
     .wh {
         background: #54a15d;
         padding: 0px 15px;
         height: 47px;
         width: 150px;
     }
-    
+
     .wh1 {
         font-size: 1rem;
         color: white;
@@ -99,13 +100,13 @@ body a {
         text-align: center;
         margin-top: 12px;
     }
-    
+
     .l3 img {
         width: 30px;
         height: 30px;
         cursor: pointer;
     }
-    
+
     .first2 {
         background: #fff;
         display: flex;
@@ -120,7 +121,7 @@ body a {
         top: 0px;
         z-index: 1;
     }
-    
+
     .p1,
     .p2,
     .p3,
@@ -131,30 +132,30 @@ body a {
         font-size: 0.9rem;
         margin-top: 36px;
     }
-    
+
     .logo {
         display: flex;
         align-items: center;
         gap: 10px;
     }
-    
+
     .lo1 {
         width: 230px;
         height: 80px;
         padding-left: 15px;
     }
-    
+
     .list1 {
         display: flex;
         gap: 30px;
     }
-    
+
     .search {
         justify-content: flex-end;
         gap: 10px;
         padding-right: 10px;
     }
-    
+
     .con1 {
         background: #54a15d;
         width: 150px;
@@ -166,30 +167,30 @@ body a {
         font-weight: bold;
         color: white;
     }
-    
+
     .con1:hover {
         background-color: white;
         border: 1px solid green;
         transition: all 0.3s ease-in-out;
         color: #54a15d;
     }
-    
+
     main {
         z-index: 0;
     }
-    
+
     .list1 p:hover {
         color: #54a15d;
         transition: all 0.2s ease-in-out;
     }
-    
+
     .s1 {
         position: relative;
         width: 100%;
         height: 100vh;
         overflow: hidden;
     }
-    
+
     .slider {
         display: flex;
         width: 100%;
@@ -200,42 +201,42 @@ body a {
         animation-delay: 10s;
         animation-iteration-count: infinite;
     }
-    
+
     .slider img {
         width: 100%;
         height: 100vh;
     }
-    
+
     @keyframes slide {
         0% {
             transform: translateX(0);
         }
-    
+
         10% {
             transform: translateX(0);
         }
-    
+
         33.33% {
             transform: translateX(-100%);
         }
-    
+
         43.33% {
             transform: translateX(-100%);
         }
-    
+
         66.66% {
             transform: translateX(-200%);
         }
-    
+
         76.66% {
             transform: translateX(-200%);
         }
-    
+
         100% {
             transform: translateX(0);
         }
     }
-    
+
     .over {
         position: absolute;
         width: 1240px;
@@ -249,7 +250,7 @@ body a {
         top: 55%;
         transform: translate(-50%, -50%);
     }
-    
+
     .box1,
     .box2,
     .box3,
@@ -260,7 +261,7 @@ body a {
         background-color: white;
         margin: 5px;
     }
-    
+
     .over img {
         width: 25px;
         height: auto;
@@ -268,34 +269,34 @@ body a {
         padding-left: 10px;
         z-index: -1;
     }
-    
+
     .by1,
     .by2,
     .by3,
     .by4 {
         font-weight: 600;
     }
-    
+
     .by1 {
         padding-left: 55px;
         margin-top: -50px;
     }
-    
+
     .by2 {
         padding-left: 55px;
         margin-top: -39px;
     }
-    
+
     .by3 {
         padding-left: 55px;
         margin-top: -42px;
     }
-    
+
     .by4 {
         padding-left: 55px;
         margin-top: -42px;
     }
-    
+
     .box5 {
         width: 230px;
         height: 80px;
@@ -307,21 +308,21 @@ body a {
         border: none;
         cursor: pointer;
     }
-    
+
     .box5:hover {
         background-color: white;
         border: 1px solid green;
         transition: all 0.3s ease-in-out;
         color: #54a15d;
     }
-    
+
     .sel1 {
         margin-left: 51px;
         margin-top: -4px;
         border: none;
         position: absolute;
     }
-    
+
     .sel2 {
         margin-left: 50px;
         margin-top: -1px;
@@ -329,41 +330,41 @@ body a {
         width: 140px;
         position: absolute;
     }
-    
+
     .sel1:focus {
         border: none;
         outline: none;
     }
-    
+
     .sel2:focus {
         border: none;
         outline: none;
     }
-    
+
     .dur1 {
         margin-left: 55px;
         margin-top: -2px;
         border: none;
         position: absolute;
     }
-    
+
     .jur1 {
         margin-left: 54px;
         margin-top: -2px;
         border: none;
         position: absolute;
     }
-    
+
     .dur1:focus {
         border: none;
         outline: none;
     }
-    
+
     .jur1:focus {
         border: none;
         outline: none;
     }
-    
+
     .s2 {
         width: 100%;
         /* height: 185rem; */
@@ -371,30 +372,30 @@ body a {
         background-color: #f9f9f9;
         padding-bottom: 25px;
     }
-    
+
     .info {
         display: flex;
         justify-content: center;
     }
-    
+
     .inf1 {
         font-size: 1.4rem;
         font-weight: 600;
         color: #54a15d;
         margin-top: 100px;
     }
-    
+
     .inf2 {
         font-size: 2.3rem;
         font-weight: 700;
         margin-top: -10px;
     }
-    
+
     .inf3 {
         font-size: 1.1rem;
         margin-top: -20px;
     }
-    
+
     .infob {
         width: 160px;
         height: 40px;
@@ -408,30 +409,30 @@ body a {
         margin-left: 325px;
         margin-top: 200px;
     }
-    
+
     .infob:hover {
         background-color: white;
         border: 1px solid green;
         transition: all 0.3s ease-in-out;
         color: #54a15d;
     }
-    
+
     .info2 {
         justify-content: center;
         display: flex;
         margin-top: 10px;
     }
-    
+
     .tp1 {
         font-size: 2rem;
         color: #54a15d;
     }
-    
+
     .pr1 {
         display: flex;
         justify-content: center;
     }
-    
+
     .pol1,
     .pol2,
     .pol3,
@@ -463,7 +464,7 @@ body a {
         box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
         margin: 0px 10px;
     }
-    
+
     .dt1 {
         width: 130px;
         height: 35px;
@@ -477,21 +478,21 @@ body a {
         margin-left: 20px;
         position: absolute;
     }
-    
+
     .time1 {
         width: 15px;
         height: 15px;
         margin-top: 9px;
         margin-left: 5px;
     }
-    
+
     .dol1 {
         color: white;
         font-size: 0.8rem;
         margin-left: 29px;
         margin-top: -19px;
     }
-    
+
     .il1 {
         width: 320px;
         height: 210px;
@@ -500,12 +501,12 @@ body a {
         border-top-left-radius: 5px;
         cursor: pointer;
     }
-    
+
     .il1:hover {
         transform: scale(1.1);
         transition: all 0.3s ease-in-out;
     }
-    
+
     .pl1 {
         font-size: 1.5rem;
         color: black;
@@ -513,21 +514,21 @@ body a {
         font-weight: 650;
         margin-left: 10px;
     }
-    
+
     .loc1 {
         width: 15px;
         height: 20px;
         margin-left: 10px;
         margin-top: -15px;
     }
-    
+
     .pl2 {
         font-size: 1rem;
         color: #585555;
         margin-left: 10px;
         margin-top: -14px;
     }
-    
+
     .bn1 {
         width: 125px;
         height: 35px;
@@ -541,7 +542,7 @@ body a {
         margin-top: 35px;
         cursor: pointer;
     }
-    
+
     .pl3 {
         font-size: 1.4rem;
         color: black;
@@ -549,37 +550,37 @@ body a {
         margin-top: -55px;
         font-weight: 500;
     }
-    
+
     .sp1 {
         font-size: 1.6rem;
         color: #54a15d;
         margin-left: 0px;
         font-weight: 700;
     }
-    
+
     .bn1:hover {
         background-color: #54a15d;
         border: 1px solid #54a15d;
         transition: all 0.3s ease-in-out;
         color: white;
     }
-    
+
     #fix1 {
         margin-left: -145px;
     }
-    
+
     .info3 {
         justify-content: center;
         display: flex;
         margin-top: 10px;
     }
-    
+
     .tp2 {
         font-size: 2rem;
         color: #54a15d;
         padding-bottom: 20px;
     }
-    
+
     .pr2,
     .pr3,
     .pr4,
@@ -587,12 +588,12 @@ body a {
         display: flex;
         justify-content: center;
     }
-    
+
     #fix2 {
         width: 310px;
         height: 65px;
     }
-    
+
     .tp3,
     .tp4,
     .tp5 {
@@ -600,7 +601,7 @@ body a {
         color: #54a15d;
         padding-bottom: 30px;
     }
-    
+
     .info4,
     .info5,
     .info6 {
@@ -608,29 +609,31 @@ body a {
         display: flex;
         margin-top: 10px;
     }
-    
+
     #fix4 {
         margin-left: -140px;
     }
-    
+
     #fix6 {
         margin-left: 15px;
         margin-top: 10px;
     }
-    
+
     #fix5 {
         margin-left: -90px;
     }
-    
+
     .s3 {
         width: 100%;
-        height: 100vh;
+        min-height: 100vh;
         background-color: #f9f9f9;
     }
-    .set3{
+
+    .set3 {
         justify-content: center;
         display: inline;
     }
+
     .sd1 {
         font-size: 1.5rem;
         color: #54a15d;
@@ -638,6 +641,7 @@ body a {
         /* margin-top: -454px; */
         margin: 0;
     }
+
     .sd2 {
         font-size: 1.7rem;
         color: black;
@@ -646,42 +650,52 @@ body a {
         margin-bottom: 30px;
         margin-top: 10px;
     }
+
     .ko1 {
         display: flex;
         justify-content: center;
     }
-    .sol1, .sol2, .sol3, .sol4 {
+
+    .sol1,
+    .sol2,
+    .sol3,
+    .sol4 {
         width: 260px;
         height: 230px;
         border: 1px solid #e2e2e2;
         border-radius: 5px;
         overflow: hidden;
         background-color: #ffffff;
-        box-shadow: 0px 0px 10px 0px rgba(0, 0, 	0, 0.1);
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
         margin: 0px 10px;
     }
+
     .son1 {
         font-size: 1.5rem;
         margin: 5px;
         padding-left: 10px;
         text-align: center;
     }
+
     .son2 {
         font-size: 1.1rem;
         margin: 23px;
         color: #585555;
     }
+
     .plan {
         font-size: larger;
         text-align: center;
         color: #54a15d;
-        margin-top: 300px;
+        margin-top: 60px;
     }
+
     .lan {
         font-weight: bolder;
         margin-top: 10px;
         text-align: center;
     }
+
     .para1 {
         margin-top: 10px;
         text-align: center;
@@ -689,28 +703,52 @@ body a {
         width: 1221px;
         margin-left: 147px;
     }
-/* Flexbox styles */
-.img6 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin: 20px;
-}
 
-.img6 a {
-  margin: 10px;
-  flex: 1 1 30%; /* Adjust the basis percentage for different sizes */
-  text-align: center;
-}
-
-.img6 img {
-  max-width: 100%;
-  height: auto;
-  transition: transform 0.3s ease;
-}
-
-.img6 img:hover {
-  transform: scale(1.1);
-}
-
+    .img6 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 50px;
+        gap: 10px;
+    }
+    .ig1 {
+        width: 450px;
+        height: 400px;
+    }
+    .bp1 {
+        width: 120px;
+        height: 30px;
+        background-color: #54a15d;
+        border-radius: 3px;
+        color: white;
+        font-size: 1rem;
+        position: absolute;
+        margin-left: -430px;
+        margin-top: 15px;
+        border: none;
+    }
+    .bt1 {
+        font-size: 1.5rem;
+        color: #ffffff;
+        font-weight: 650;
+        position: absolute;
+        margin-top: -133px;
+        width: 398px;
+        padding-left: 30px;
+    }
+    .td1 {
+        width: 20px;
+        height: 20px;
+        margin-left: -420px;
+        margin-top: 345px;
+        position: absolute;
+        mix-blend-mode: screen;
+    }
+    .pb1 {
+        color: #edf0f1;
+        margin-left: 56px;
+        font-size: 1rem;
+        position: absolute;
+        margin-top: -61px;
+    }
 }
