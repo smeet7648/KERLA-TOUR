@@ -2210,11 +2210,6 @@ body a {
         color: #54a15d;
     }
 
-    .pr1 {
-        display: flex;
-        justify-content: center;
-    }
-
     .pol1,
     .pol2,
     .pol3,
@@ -2244,7 +2239,7 @@ body a {
         overflow: hidden;
         background-color: #ffffff;
         box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
-        margin: 0px 10px;
+        margin: 10px 10px;
     }
 
     .dt1 {
@@ -2363,12 +2358,14 @@ body a {
         padding-bottom: 20px;
     }
 
+    .pr1,
     .pr2,
     .pr3,
     .pr4,
     .pr5 {
         display: flex;
         justify-content: center;
+        flex-wrap: wrap;
     }
 
     #fix2 {
@@ -2698,5 +2695,75 @@ body a {
     }
     .down{
         margin-top: 5px;
+    }
+    .ab1{
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 1429px) {
+    .para1{
+        margin-left: 87px;
+    }
+}
+@media screen and (max-width:1370px) {
+    .ig1 {
+        width: 440px;
+        height: 390px;
+    }    
+    .img6 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .pb1 {
+        margin-top: -51px;
+    }
+}
+@media screen and (max-width:1366px) {
+    .pol1, .pol2, .pol3, .pol4, .pol5, .pol6, .pol7, .pol8, .pol9, .pol10, .pol11, .pol12, .pol13, .pol14, .pol15, .pol16, .pol17, .pol18, .pol19, .pol20 {
+        width: 305px;
+        height: 410px;
+        margin: 10px 10px;
+    }
+}
+@media screen and (max-width:1360px) {
+    .pb1 {
+        margin-top: -41px;
+    }
+    .td1 {
+        margin-left: -400px;
+    }
+    .ig1 {
+        width: 430px;
+        height: 380px;
+    }
+    .bp1 {
+        margin-left: -410px;
+    }
+}
+@media screen and (max-width:1330px) {
+    .bt1 {
+        padding-left: 10px;
+    }
+    .ig1 {
+        width: 410px;
+        height: 360px;
+    }
+    .bp1 {
+        margin-left: -400px;
+	margin-top: 35px;
+    }
+    .td1 {
+        margin-left: -400px;
+        margin-top: 325px;
+    }
+    .para1{
+        margin-left: 47px;
+    }
+}
+@media screen and (max-width:1306px) {
+    .pol1, .pol2, .pol3, .pol4, .pol5, .pol6, .pol7, .pol8, .pol9, .pol10, .pol11, .pol12, .pol13, .pol14, .pol15, .pol16, .pol17, .pol18, .pol19, .pol20 {
+        width: 305px;
+        height: 410px;
+        margin: 10px 5px;
     }
 }
