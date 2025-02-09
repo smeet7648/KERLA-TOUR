@@ -9458,19 +9458,30 @@ body a {
     }
 }
 @media screen and (max-width:1106px) {
-    .pol1, .pol2, .pol3, .pol4, .pol5, .pol6, .pol7, .pol8, .pol9, .pol10, .pol11, .pol12, .pol13, .pol14, .pol15, .pol16, .pol17, .pol18, .pol19, .pol20 {
+    @media screen and (max-width: 1106px) {
+        .pol1, .pol2, .pol3, .pol4, .pol5, .pol6, .pol7, .pol8, .pol9, .pol10, .pol11, .pol12, .pol13, .pol14, .pol15, .pol16, .pol17, .pol18, .pol19, .pol20 {
+            width: 366px;
+            height: 460px;
+            margin: 10px 5px;
+            /* flex: 1 1 calc(50% - 40px); */
+            min-width: 200px;
+        }
+        .bn1 {
+            margin-left: -29px;
+            margin-top: 75px;
+        }
+        
+    /* .il1 {
         width: 265px;
-        height: 460px;
-        margin: 10px 5px;
-        flex: 1 1 calc(50% - 40px);
-        min-width: 200px;
     }
-    .il1 {
-        width: 265px;
-    }
+    .pl3 {
+        margin-left: -98px;
+        margin-top: -60px;
+    } */
 }
 @media (max-width: 600px) {
     .pol1, .pol2, .pol3, .pol4, .pol5, .pol6, .pol7, .pol8, .pol9, .pol10, .pol11, .pol12, .pol13, .pol14, .pol15, .pol16, .pol17, .pol18, .pol19, .pol20 {
         flex: 1 1 100%; /* 1 box per row on small screens */
     }
+}
 }
