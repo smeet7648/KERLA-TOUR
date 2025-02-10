@@ -9456,32 +9456,241 @@ body a {
         color: #54a15d;
         transition: all 0.2s ease-in-out;
     }
+    .first2 {
+        height: 90px;
+    }
+    .first1 {
+        margin-top: 90px;
+    }
 }
 @media screen and (max-width:1106px) {
-    @media screen and (max-width: 1106px) {
-        .pol1, .pol2, .pol3, .pol4, .pol5, .pol6, .pol7, .pol8, .pol9, .pol10, .pol11, .pol12, .pol13, .pol14, .pol15, .pol16, .pol17, .pol18, .pol19, .pol20 {
-            width: 366px;
-            height: 460px;
-            margin: 10px 5px;
-            /* flex: 1 1 calc(50% - 40px); */
-            min-width: 200px;
-        }
-        .bn1 {
-            margin-left: -29px;
-            margin-top: 75px;
-        }
-        
-    /* .il1 {
-        width: 265px;
+    .pol1, .pol2, .pol3, .pol4, .pol5, .pol6, .pol7, .pol8, .pol9, .pol10, .pol11, .pol12, .pol13, .pol14, .pol15, .pol16, .pol17, .pol18, .pol19, .pol20 {
+        width: 360px;
+        height: 460px;
+        margin: 10px 5px;
+        /* flex: 0 1 calc(50% - 20px); */
+    }
+    .il1 {
+        width: 365px;
+	height: 230px;
+    }
+    #fix2 {
+        width: 350px;
+        height: 85px;
+    }
+    .loc1 {
+        width: 15px;
+        height: 20px;
+        margin-left: 10px;
+        margin-top: -35px;
+    }
+    .pl2 {
+        margin-left: 10px;
+        margin-top: -35px;
+    }
+    .bn1 {
+        margin-left: -65px;
+        margin-top: 45px;
     }
     .pl3 {
-        margin-left: -98px;
-        margin-top: -60px;
-    } */
-}
-@media (max-width: 600px) {
-    .pol1, .pol2, .pol3, .pol4, .pol5, .pol6, .pol7, .pol8, .pol9, .pol10, .pol11, .pol12, .pol13, .pol14, .pol15, .pol16, .pol17, .pol18, .pol19, .pol20 {
-        flex: 1 1 100%; /* 1 box per row on small screens */
+        margin-left: 13px;
+        margin-top: -95px;
+    }
+    #fix6 {
+        margin-left: -175px;
+        margin-top: 50px;
+    }
+    .sol1, .sol2, .sol3, .sol4 {
+        width: 260px;
+        height: 260px;
     }
 }
+@media screen and (max-width:1078px) {
+    .sw3 {
+        margin-left: 60px;
+    }
+}
+@media screen and (max-width:1056px) {
+    .over {
+        width: 680px;
+        height: 235px;
+        flex-wrap: wrap;
+        gap: 0px;
+        padding-top: 3px;
+    }
+    .box1, .box2, .box3, .box4 {
+        width: 325px;
+        height: 80px;
+    }
+    .box5 {
+        width: 665px;
+        height: 40px;
+        margin-top: -1px;
+    }
+    .by1 {
+        padding-left: 55px;
+        margin-top: -45px;
+    }
+    .by2 {
+        padding-left: 55px;
+        margin-top: -45px;
+    }
+    .by3 {
+        padding-left: 55px;
+        margin-top: -45px;
+    }
+    .by4 {
+        padding-left: 55px;
+        margin-top: -45px;
+    }
+    .sel1 {
+        margin-left: 51px;
+        margin-top: 0px;
+    }
+    .sel2 {
+        margin-left: 51px;
+        margin-top: 0px;
+    }
+    .dur1 {
+        margin-left: 53px;
+        margin-top: 0px;
+    }
+    .jur1 {
+        margin-left: 53px;
+        margin-top: 0px;
+    }
+    .over img {
+        width: 20px;
+        height: 25px;
+        padding-top: 25px;
+        padding-left: 10px;
+    }
+}
+@media screen and (max-width:1038px) {
+    .sw3 {
+        margin-left: 0px;
+        height: 320px;
+    }
+    .sw2 {
+        padding-left: 0px;
+        width: 660px;
+	    margin-left: 130px;
+    }
+}
+@media screen and (max-width:1020px) {
+    .infob {
+        margin-left: 95px;
+    }
+}
+@media screen and (max-width:930px) {
+    .sw2 {
+        padding-left: 0px;
+        width: 660px;
+        margin-left: 70px;
+    }
+    .td1 {
+        margin-left: -400px;
+        margin-top: 354px;
+    }
+    .ig1 {
+        width: 420px;
+        height: 390px;
+    }
+    .bp1 {
+        margin-left: -400px;
+        margin-top: 15px;
+    }
+    .bt1 {
+        padding-left: 15px;
+        padding-top: 15px;
+        width: 403px;
+    }
+    .tp3 {
+        font-size: 1.8rem;
+        width: 85%;
+    }
+    .sol1, .sol2, .sol3, .sol4 {
+        width: 320px;
+        height: 230px;
+        margin: 0px 0px;
+    }
+    .ko1 {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .son1 {
+        padding-top: 5px;
+    }
+    .para1 {
+        margin-left: 70px;
+        font-size: 1.1rem;
+        width: 85%;
+    }
+}
+@media screen and (max-width:870px) {
+    .pb1 {
+        margin-top: -41px;
+        margin-left: 50px;
+    }
+    .td1 {
+        margin-left: -354px;
+        margin-top: 325px;
+    }
+    .bt1 {
+        padding-left: 5px;
+        padding-top: 15px;
+        width: 363px;
+    }
+    .bp1 {
+        margin-left: -350px;
+        margin-top: 15px;
+    }
+    .ig1 {
+        width: 370px;
+        height: 360px;
+    }
+}
+@media screen and (max-width:807px) {
+    .inf2 {
+        font-size: 2.2rem;
+        font-weight: 700;
+        margin-top: -10px;
+    }
+    .sto1 {
+        flex-wrap: wrap;
+    }
+    .sw1 {
+        width: 360px;
+    }
+    .sw2 {
+        width: 310px;
+        margin-left: -15px;
+        margin-top: 20px;
+    }
+    .sw3 {
+        margin-left: 70px;
+        height: 190px;
+        margin-top: 40px;
+        width: 85%;
+    }
+}
+@media screen and (max-width:797px) {
+    .infob {
+        margin-left: 35px;
+        margin-top: 280px;
+        position: absolute;
+    }
+    .info2 {
+        margin-top: 80px;
+    }
+    .para1 {
+        margin-left: 60px;
+        font-size: 1.1rem;
+        width: 85%;
+    }
+}
+@media screen and (max-width:771px) {
+    .l3{
+        display: none;
+    }
 }
