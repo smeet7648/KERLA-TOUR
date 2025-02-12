@@ -10065,7 +10065,7 @@ body a {
 
     #fix2 {
         width: 350px;
-        height: 105px;
+        height: 110px;
     }
 }
 
@@ -10443,6 +10443,7 @@ body a {
         margin-left: 10px;
         height: 110px;
         font-size: 1.45rem;
+        width: 280px;
     }
     .loc1 {
         margin-left: 10px;
