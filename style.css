@@ -9989,7 +9989,7 @@ body a {
     .tp6 {
         font-size: 1.6rem;
         margin-left: 40px;
-        margin-right: 40px;
+        margin-right: 20px;
     }
 }
 
@@ -10443,6 +10443,8 @@ body a {
         margin-left: 10px;
         height: 110px;
         font-size: 1.45rem;
+    }
+    #pro1{
         width: 280px;
     }
     .loc1 {
@@ -10451,7 +10453,7 @@ body a {
     }
     .pl2 {
         margin-left: 10px;
-        margin-top: -65.5px;
+        margin-top: -63px;
     }
     .bn1 {
         margin-top: -5px;
@@ -10464,14 +10466,14 @@ body a {
         font-size: 1.4rem;
     } */
     .pl3 {
-        margin-left: -123px;
+        margin-left: -124px;
         margin-top: -41px;
         height: 50px;
         width: 280px;
         font-size: 1.4rem;
     }
     #fix6 {
-        margin-left: -175px;
+        margin-left: -168px;
         margin-top: -6px;
     }
     .sol1, .sol2, .sol3, .sol4 {
@@ -10479,7 +10481,7 @@ body a {
         height: 170px;
     }
     .pb1 {
-        margin-top: -39px;
+        margin-top: -37.5px;
         margin-left: 40px;
         font-size: 1rem;
     }
@@ -10507,7 +10509,7 @@ body a {
         font-size: 0.95rem;
     }
     .tp1, .tp2, .tp3, .tp4, .tp5, .tp6 {
-        margin-left: 60px;
+        margin-left: 20px;
     }
     .con4 {
         width: 250px;
@@ -10525,10 +10527,19 @@ body a {
         width: 360px;
         height: 35px;
     }
+    #son5 {
+        margin-top: -30px;
+    }
+    #son6 {
+        margin-top: -22px;
+    }
+    #son7 {
+        margin-top: -25px;
+    }
 }
 @media screen and (max-width:412px) {
     .para1 {
-        margin-left: 30px;
+        margin-left: 20px;
         font-size: 0.9rem;
     }
     .lan {
@@ -10548,10 +10559,16 @@ body a {
         width: 330px;
         height: 30px;
     }
-    .lo1 {
+    /* .lo1 {
         width: 210px;
         height: 70px;
         padding-left: 5px;
+    } */
+    .lo1 {
+        width: 180px;
+        height: 60px;
+        padding-left: 5px;
+        margin-top: -9px;
     }
 }
 @media screen and (max-width:351px) {
