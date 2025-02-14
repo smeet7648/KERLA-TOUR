@@ -542,7 +542,9 @@ body a {
         margin-left: 10px;
         margin-top: -14px;
     }
-
+    #fix52{
+        margin-left: -140px;
+    }
     .bn1 {
         width: 125px;
         height: 35px;
